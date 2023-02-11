@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects Git\\RAGE-MP\\dotnet\\resources\\mygamemode\\mygamemode.csproj": {}
+    "D:\\Projects Git\\rage-mp-battleroyale\\dotnet\\resources\\mygamemode\\mygamemode.csproj": {}
   },
   "projects": {
-    "D:\\Projects Git\\RAGE-MP\\dotnet\\resources\\mygamemode\\mygamemode.csproj": {
+    "D:\\Projects Git\\rage-mp-battleroyale\\dotnet\\resources\\mygamemode\\mygamemode.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects Git\\RAGE-MP\\dotnet\\resources\\mygamemode\\mygamemode.csproj",
+        "projectUniqueName": "D:\\Projects Git\\rage-mp-battleroyale\\dotnet\\resources\\mygamemode\\mygamemode.csproj",
         "projectName": "mygamemode",
-        "projectPath": "D:\\Projects Git\\RAGE-MP\\dotnet\\resources\\mygamemode\\mygamemode.csproj",
+        "projectPath": "D:\\Projects Git\\rage-mp-battleroyale\\dotnet\\resources\\mygamemode\\mygamemode.csproj",
         "packagesPath": "C:\\Users\\baico\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects Git\\RAGE-MP\\dotnet\\resources\\mygamemode\\obj\\",
+        "outputPath": "D:\\Projects Git\\rage-mp-battleroyale\\dotnet\\resources\\mygamemode\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\baico\\AppData\\Roaming\\NuGet\\NuGet.Config"
