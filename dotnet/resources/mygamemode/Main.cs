@@ -3,9 +3,9 @@ using GTANetworkAPI;
 
 namespace mygamemode
 {
-    public class Class1 : Script
+    public class Main : Script
     { 
-        public Class1()
+        public Main()
         {
             Console.WriteLine("Hello World!");
         }
