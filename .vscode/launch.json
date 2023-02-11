@@ -11,7 +11,7 @@
             "preLaunchTask": "compile",
             "program": "ragemp-server.exe", // The RAGEMP server executable
             "args": [],
-            "cwd": "D:/Projects Git/RAGE-MP", // Or absolute path to your X:/RAGEMP/server-files/
+            "cwd": "D:/Projects Git/rage-mp-battleroyale", // Or absolute path to your X:/RAGEMP/server-files/
             "stopAtEntry": false,
             "console": "externalTerminal",
             "internalConsoleOptions": "neverOpen"
