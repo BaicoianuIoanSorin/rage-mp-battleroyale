@@ -7,7 +7,7 @@ namespace mygamemode
     { 
         public Class1()
         {
-            Console.WriteLine("Hello World! dasda");
+            Console.WriteLine("Hello World!");
         }
     }
 }
