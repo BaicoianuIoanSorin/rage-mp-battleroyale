@@ -6,10 +6,10 @@ using MySql.Data.MySqlClient;
 
 namespace mygamemode.database
 {
-    public class MySQL : Script
+    public class MySQL
     {
-        public static bool IsConnectionSetup = false;
-        public static MySqlConnection conn = null;
+        public bool IsConnectionSetup { get; set; }
+        public MySqlConnection conn { get; set; }
         public String Host { get; set; }
 
         public String Username { get; set; }
@@ -20,22 +20,27 @@ namespace mygamemode.database
         
         public MySQL()
         {
-            this.Host = "localhost";
+            this.Host = "127.0.0.1";
             this.Username = "root";
             this.Password = "";
             this.Database = "database";
 
-            Logs.INFO("MySQL Started");
+            this.IsConnectionSetup = false;
+            this.conn = null;
+
+            InitConnection();
         }
 
-        public static void InitConnection() {
-            String filePath = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), "SQLInfo.json");
-
-            MySQL sql = new MySQL();
-
-            if(File.Exists(filePath)) // file is found
-            {
-                    //TODO connection
+        public void InitConnection() {
+           if(!IsConnectionSetup)  {
+                String SQLConnection = $"server={this.Host};password={this.Password};user={this.Username};database={this.Database};";
+ 
+                using (conn = new MySqlConnection(SQLConnection))
+                
+                {
+                conn.Open();
+                Logs.INFO("Connection to MySQL established");
+                }
             }
         }
     }
