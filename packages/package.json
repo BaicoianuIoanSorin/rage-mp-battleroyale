@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "@types/ragemp-s": "github:CocaColaBear/types-ragemp-s#master"
+  },
+  "dependencies": {
+    "mysql": "^2.18.1"
+  }
+}
